@@ -40,15 +40,13 @@ pwd = [
 ]
 
 welcome = [
-    '<br>',
-    `<span class="index">Mellowboy (M) FKCodes (FK) really inspired this project! Have fun with it!</span><br>`,
-    `<br>`,
-        "██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗",
-        "██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝",
-        "██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗  ",
-        "██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝  ",
-        "╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗",
-        " ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝ TO MELLOWBOY HOME",
+    "<span class=\"index\">Mellowboy (M) FKCodes (FK) really inspired this project! Have fun with it!</span><br>",
+    "██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗",
+    "██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝",
+    "██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗  ",
+    "██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝  ",
+    "╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗",
+    " ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝ TO MELLOWBOY HOME",
     `<span class="banner">Type <span class="command">'github'</span> or click <a href="https://github.com/Ishfaq253951" target="_blank"><b>here</b></a> to view my github page.</span>`,
     `<span class="banner">For a view the available command, type <span class="command">'help'</span></span>`,
     `<br>`
