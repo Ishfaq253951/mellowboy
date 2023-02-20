@@ -43,14 +43,12 @@ welcome = [
     '<br>',
     `<span class="index">Mellowboy (M) FKCodes (FK) really inspired this project! Have fun with it!</span><br>`,
     `<br>`,
-    `<span class="banner-welcome">
-        <span>██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗</span><br>
-        <span>██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝</span><br>
-        <span>██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗  </span><br>
-        <span>██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝  </span><br>
-        <span>╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗</span><br>
-        <span> ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝ TO MELLOWBOY HOME<span><br>
-    </span>`,
+        "██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗",
+        "██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝",
+        "██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗  ",
+        "██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝  ",
+        "╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗",
+        " ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝ TO MELLOWBOY HOME",
     `<span class="banner">Type <span class="command">'github'</span> or click <a href="https://github.com/Ishfaq253951" target="_blank"><b>here</b></a> to view my github page.</span>`,
     `<span class="banner">For a view the available command, type <span class="command">'help'</span></span>`,
     `<br>`
