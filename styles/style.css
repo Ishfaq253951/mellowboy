@@ -8,143 +8,146 @@ body {
     background: #252524;
     font-family: cursor, monospace;
     overflow-x: hidden;
+}
+::selection {
+  color: #2f2f2c;
+  background-color: #3e78a4;
+}
+::-moz-selection {
+  color: #2f2f2c;
+  background-color: #3e78a4;
+}
+textarea {
+  left: -1000px;
+  position: absolute;
+}
+b {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #0091ff;
+}
+/* Cursor Start */
+.cursor {
+  font-size: 12px;
+  color: #ac4610;
+  background-color: #cb5313;
+  position: relative;
+  opacity: 1;
+  height: 1.5em;
+  width: 10px;
+  max-width: 10px;
+  transform: translateY(4px);
+  overflow: hidden;
+  text-indent: -5px;
+  display: inline-block;
+  text-decoration: blink;
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.2;
   }
-  ::selection {
-    color: #2f2f2c;
-    background-color: #3e78a4;
+}
+#command {
+  cursor: text;
+  height: 50px;
+  color: #ac4610;
+}
+#liner {
+  line-height: 1.3em;
+  margin-top: -2px;
+  animation: show 0.5s ease forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
+}
+#liner::before {
+  color: #1c9dff;
+  content: "guest@mellowboy~$ ";
+}
+@keyframes show {
+  from {
+    opacity: 0.2;
   }
-  ::-moz-selection {
-    color: #2f2f2c;
-    background-color: #3e78a4;
-  }
-  textarea {
-    left: -1000px;
-    position: absolute;
-  }
-  b {
-    font-weight: bold;
-    text-decoration: underline;
-    color: #0091ff;
-  }
-  /* Cursor Start */
-  .cursor {
-    font-size: 12px;
-    color: #ac4610;
-    background-color: #cb5313;
-    position: relative;
+  to {
     opacity: 1;
-    height: 1.5em;
-    width: 10px;
-    max-width: 10px;
-    transform: translateY(4px);
-    overflow: hidden;
-    text-indent: -5px;
-    display: inline-block;
-    text-decoration: blink;
-    animation: blinker 1s linear infinite;
   }
-  @keyframes blinker {
-    50% {
-      opacity: 0.2;
-    }
+}
+/* Cursor End */
+p {
+  display: block;
+  line-height: 1.3em;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 0.05em;
+  animation: typing 0.5s steps(30, end);
+  color: #1c9dff;
+}
+.no-animation {
+  animation: typing 0 steps(30, end);
+}
+.margin {
+  margin-left: 20px;
+}
+@keyframes typing {
+  from {
+    width: 0;
   }
-  #command {
-    cursor: text;
-    height: 50px;
-    color: #ac4610;
+  to {
+    width: 90%;
   }
-  #liner {
-    line-height: 1.3em;
-    margin-top: -2px;
-    animation: show 0.5s ease forwards;
-    animation-delay: 1.2s;
-    opacity: 0;
-  }
-  #liner::before {
-    color: #1c9dff;
-    content: "guest@mellowboy~$ ";
-  }
-  @keyframes show {
-    from {
-      opacity: 0.2;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  /* Cursor End */
-  p {
-    display: block;
-    line-height: 1.3em;
-    margin: 0;
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0;
-    letter-spacing: 0.05em;
-    animation: typing 0.5s steps(30, end);
-    color: #1c9dff;
-  }
-  .no-animation {
-    animation: typing 0 steps(30, end);
-  }
-  .margin {
-    margin-left: 20px;
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 90%;
-    }
-  }
-  .index {
-    color: #e29c67;
-  }
-  .color2 {
-    color: #7e82cf;
-  }
-  .command {
-    color: #ff0000;
-    text-shadow: 0 0 5px #d74141; 
-  }
-  .error {
-    color: #ad5d5d;
-  }
-  .white {
-    color: #fff;
-  }
-  .inherit,
-  a {
-    color: #ce3e3ed2;
-    text-decoration: inherit;
-  }
-  a:hover {
-    background: #5f7cff84;
-    color: #0c0c0c;
-  }
-  a:focus {
-    outline: 0;
-  }
-  .banner, .section {
-    color: #3e78a4;
-  }
-  .banner-welcome {
-    color: #0091ff;
-  }
-  .link {
-    color: #b64949;
-  }
-  .quote {
-    color: #cc7634bb;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-  }
-  h {
-    text-decoration: underline;
-  }
-  .date, .time {
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    color: #f5f5f5;
-  }
+}
+.index {
+  color: #e29c67;
+}
+.color2 {
+  color: #7e82cf;
+}
+.command {
+  color: #ff0000;
+  text-shadow: 0 0 5px #d74141; 
+}
+.error {
+  color: #ad5d5d;
+}
+.white {
+  color: #fff;
+}
+.inherit,
+a {
+  color: #ce3e3ed2;
+  text-decoration: inherit;
+}
+a:hover {
+  background: #5f7cff84;
+  color: #0c0c0c;
+}
+a:focus {
+  outline: 0;
+}
+.banner, .section {
+  color: #3e78a4;
+}
+.banner-welcome {
+  color: #0091ff;
+}
+.link {
+  color: #b64949;
+}
+.quote {
+  color: #cc7634bb;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+h {
+  text-decoration: underline;
+}
+.date, .time {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #f5f5f5;
+}
+pre {
+  font-size: 16px;
+}

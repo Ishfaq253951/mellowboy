@@ -2,6 +2,7 @@ let fkcodes = "https://fkcodes.com";
 let google = "https://www.google.com";
 let youtube = "https://www.youtube.com";
 let github = "https://github.com/Ishfaq253951";
+let source = "https://github.com/Ishfaq253951/mellowboy";
 
 
 const date = new Date();
@@ -11,6 +12,7 @@ let currentTime = date.toTimeString();
 help = [
     "<br>",
     '<span class="command">help</span>                  Provides you with a list of commands',
+    '<span class="command">whois</span>                 An overview of myself',
     '<span class="command">clear</span>                 Clears the screen for you',
     '<span class="command">welcome</span>               Displays the welcome banner',
     '<span class="command">refresh</span>               Refreshes the page',
@@ -18,16 +20,17 @@ help = [
     '<span class="command">list-quotes</span>           Lists all the available quotes',
     '<span class="command">whatisdate</span>            Gives you the current date or just type <b>\'date\'</b>',
     '<span class="command">whatistime</span>            Gives you the current time or just type <b>\'time\'</b>',
-    '<span class="command">pwd</span>                   Prints the current working directory.',
+    '<span class="command">pwd</span>                   Prints the current working directory',
     '<span class="command">whoami</span>                Who am i?',
     '<span class="command">whoareyou</span>             Who are you?',
-    '<span class="command">quit</span>                  Quit app.',
+    '<span class="command">quit</span>                  Quit app',
 
     '<span class="section">               Links</span>',
     '<span class="command">fkcodes</span>               Subscribe to his youtube channel',
     '<span class="command">youtube</span>               Watch a video on youtube',
     '<span class="command">google</span>                Make a quick google search',
     '<span class="command">github</span>                View my <a href="https://github.com/Ishfaq253951"><b>github</b></a> page',
+    '<span class="command">source</span>                Take a look at the <a href="https://github.com/Ishfaq253951/mellowboy"><b>source code</b></a> on github.',
     `<span>               &copy;2023</span>`
 ]
 
@@ -41,12 +44,15 @@ pwd = [
 
 welcome = [
     "<span class=\"index\">Mellowboy (M) FKCodes (FK) really inspired this project! Have fun with it!</span><br>",
-    "██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗",
-    "██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝",
-    "██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗  ",
-    "██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝  ",
-    "╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗",
-    " ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝ TO MELLOWBOY HOME",
+    `<pre>
+            ██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗
+            ██║    ██║██╔════╝██║     ██╔════╝██╔═══██╗████╗ ████║██╔════╝
+            ██║ █╗ ██║█████╗  ██║     ██║     ██║   ██║██╔████╔██║█████╗  
+            ██║███╗██║██╔══╝  ██║     ██║     ██║   ██║██║╚██╔╝██║██╔══╝  
+            ╚███╔███╔╝███████╗███████╗╚██████╗╚██████╔╝██║ ╚═╝ ██║███████╗
+             ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝ TO MELLOWBOY HOME
+    </pre>`,
+    
     `<span class="banner">Type <span class="command">'github'</span> or click <a href="https://github.com/Ishfaq253951" target="_blank"><b>here</b></a> to view my github page.</span>`,
     `<span class="banner">For a view the available command, type <span class="command">'help'</span></span>`,
     `<br>`
@@ -78,4 +84,10 @@ quit = [
 exit = [
     "You're not going anywhere like this!",
     "Close the browser tab, dummy! This ain't a real terminal!"
+]
+
+whois = [
+    "Hi! I'am Mellowboy and I am a computer enthusiast.",
+    "I made this website as my main website where I will post favourite projects.",
+    "Some of them are actually live.",
 ]

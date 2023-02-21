@@ -104,6 +104,9 @@ function commander(cmd) {
     case "exit":
       loopLines(exit, "color2", 80);
       break;
+    case "whois":
+      loopLines(whois, "color2 margin", 80);
+      break;
 
     //Links
     case "youtube":
@@ -121,6 +124,10 @@ function commander(cmd) {
     case "github":
       loopLines(openingLink, "", 60);
       newTab(github);
+      break;
+    case "source":
+      loopLines(openingLink, "", 60);
+      newTab(source);
       break;
 
 
